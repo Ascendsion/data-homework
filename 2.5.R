@@ -11,3 +11,4 @@ r.boxp + geom_boxplot() + xlab(" ")
 ggplot(rr, aes(sample = rivers)) + geom_qq()
 
 summary(rr$rivers)
+
