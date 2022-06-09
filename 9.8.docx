@@ -1,0 +1,45 @@
+Alexander Olvera 
+
+02/23/2022 
+
+Lesson 8 Hands On 
+
+ 
+
+Please perform the following tasks: 
+
+Read in your data as a CSV file: 
+
+bikes = pd.read_csv('BisonTracking.csv') 
+
+Look at the first seven rows of your data: 
+
+bisontracking.head(7) 
+
+Look at the last ten rows of your data: 
+
+bisontracking.tail(10) 
+
+Determine the number of rows and columns your dataset has: 
+
+len(bisontracking) = 1107 
+
+len(bisontracking.columns) = 5 
+
+And answer the following questions: 
+
+How many bison are of the species antiquus? 
+
+bisontracking.Species.value_counts() = 633 
+
+What is the mean and standard deviation of Length? 
+
+bisontracking.Length.describe() =  
+
+Mean: 7.981030 & STD: 0.808299 
+
+What is the median length of the bison? 
+
+bisontracking.Length.median() = 8.0 
+
+ 
