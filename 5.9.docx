@@ -1,0 +1,35 @@
+Alexander Olvera 
+
+05/04/2022 
+
+Power Analysis Hands-On 
+
+ 
+
+For each scenario, please complete the following: 
+
+Determine what analysis you would run 
+
+Conduct an a priori power analysis to determine the sample size for that analysis 
+
+ 
+
+Scenario 1 
+
+A company is hoping to collect data about the different marketing strategies they have undertaken via social media. They want to measure the number of people who follow their posts on Facebook, Twitter, and LinkedIn to determine if one site works better than the others. 
+
+F test, ANOVA: Fixed effects, omnibus, one-way. Total sample size is 159. 
+ 
+
+Scenario 2 
+
+You have been hired to predict how roofing companies will fare in the upcoming years. There are several predictors: yearly hurricanes, winter storms, shingle prices, and GDP. 
+
+F test, Linear multiple regression: Fixed model, R^2 deviation from zero. Total sample size is 85. 
+ 
+
+Scenario 3 
+
+A hospital has contracted with you to determine how to improve patient care, as measured continuously by both pain level and disability level. They are examining these metrics upon admission to the hospital and at discharge from the hospital, and they are comparing their current standard of care to one where they check on the patients every hour. 
+
+F test, MANOVA: Repeated measures, within-between interaction. Total sample size is 179. 
