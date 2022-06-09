@@ -31,7 +31,7 @@ leveneTest(suicides.100k.popLOG ~ generation, data=suicide4)
 
 ## Run the analysis
 
-RManova1 <- aov(suicides.100k.popLOG~(generation*year)+Error(ï..country/(year)), suicide4)
+RManova1 <- aov(suicides.100k.popLOG~(generation*year)+Error(Ã¯..country/(year)), suicide4)
 summary(RManova1)
 
 ### Looks like there is a generational effect to suicide, and an interaction to how the year has affected the generation
