@@ -38,3 +38,4 @@ Cig1985DF <- Cigarette %>% filter(year == 1985)
 Cig1995DF <- Cigarette %>% filter(year == 1995)
 
 t.test(Cig1985DF$packpc, Cig1995DF$packpc, paired=TRUE)
+
