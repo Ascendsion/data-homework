@@ -1,0 +1,57 @@
+Alexander Olvera 
+
+02/23/2022 
+
+Lesson 9 Hands On 
+
+ 
+
+Create a five element array using your favorite numbers named myFavorites. 
+
+array1 = np.array([1,2,3,4,5]) 
+
+Perform each of the five aggregate functions on your array. 
+
+array1.max() = 5 
+
+array1.min() = 1 
+
+array1.mean() = 3 
+
+array1.std() = 1. 4142135623730951 
+
+array1.sum() = 15 
+
+Create a five element array containing only ones named OneArrayToRuleThemAll. 
+
+OneArrayToRuleThemAll = np.ones(5) 
+
+Add myFavorites and OneArrayToRuleThemAll. 
+
+array1 + OneArrayToRuleThemAll 
+
+Multiply every element in myFavorites by two. 
+
+array1 * 2 
+
+Call the third element in myFavorites using indexing. 
+
+array1 [2] 
+
+Create a four element, two-by-two matrix of numbers named TheMatrixHasYou. 
+
+TheMatrixHasYou = np.array([[1,2], [3,4]]) 
+
+Access the upper left element in TheMatrixHasYou using indexing. 
+
+TheMatrixHasYou[0,0] 
+
+Find the largest number in each row for TheMatrixHasYou. 
+
+TheMatrixHasYou.max(axis=1) 
+
+Reshape TheMatrixHasYou into a matrix with one row and four columns. 
+
+TheMatrixHasYou.reshape(1,4) 
+
+ 
